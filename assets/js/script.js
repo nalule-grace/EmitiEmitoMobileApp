@@ -89,3 +89,7 @@ window.addEventListener('scroll', scrollActive)
 
 /*==============signup page==================*/
 
+
+
+
+/*=============COURSE===============*/

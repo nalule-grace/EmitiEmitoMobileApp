@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Platform - MISSION EARTH RESCUE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Learning Platform</h1>
+    </header>
+    <main>
+        <section class="course-info">
+            <h2>MISSION EARTH RESCUE</h2>
+            <p>[Course Description]</p>
+            <div class="progress-bar">
+                <div class="progress" id="progress"></div>
+                <span id="progress-text">0%</span>
+            </div>
+            <ul class="rewards">
+                <li><img src="badge1.png" alt="Badge 1" title="Unlocks after completing Module 1"></li>
+                <li><img src="badge2.png" alt="Badge 2" title="Unlocks after completing Module 2"></li>
+                <li><img src="badge3.png" alt="Badge 3" title="Unlocks after completing the course"></li>
+            </ul>
+        </section>
+        <section class="course-content">
+            <h3>Modules</h3>
+            <ul id="modules">
+                <li data-completed="false">Module 1: Introduction</li>
+                <li data-completed="false">Module 2: Core Concepts</li>
+                <li data-completed="false">Module 3: Advanced Techniques</li>
+            </ul>
+            <div id="module-content"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

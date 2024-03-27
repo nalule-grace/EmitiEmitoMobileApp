@@ -132,6 +132,21 @@
     justify-content: space-between;
     align-items: center;
 }
+.nav__menu{
+    position: fixed;
+    top:0;
+    right:-100%;
+    background-color: hsla(228,24%,6%,.2);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    width:80%;
+    height:100%;
+    padding : 6rem 3rem;
+    transition: right .4s ;
+}
+.nav__items{
+    align-items: right;
+}
 
 .nav__logo,
 .nav__close,
@@ -140,6 +155,10 @@
     display: flex;
     color: var(--title-color);
     cursor: pointer;
+}
+
+.ri-tree-line{
+    font-size: 50px;
 }
 
 .nav__logo{
@@ -649,3 +668,15 @@ cursor: pointer;
 
 
     /* sign up pages*/
+
+
+
+
+
+
+    /*community*/
+
+
+    /*course*/
+
+    
