@@ -1,0 +1,113 @@
+    body {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #89a58d;
+    }
+    
+    header {
+        background-color: #162e1e;
+        padding: 20px;
+        text-align: center;
+        color: #ffff;
+    }
+    
+    h1 {
+        font-size: 2em;
+        animation: title-anim 2s ease-in-out infinite alternate;
+    }
+    
+    @keyframes title-anim {
+        from {
+        transform: scale(1);
+        }
+        to {
+        transform: scale(1.1);
+        }
+    }
+    
+    main {
+        padding: 20px;
+        
+    }
+    
+    nav {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        color: #ffff;
+    }
+    
+    nav li {
+        display: inline-block;
+        margin-right: 20px;
+        color:#ffff
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: #f9fdfb;
+        transition: color 0.2s ease-in-out;
+    }
+    
+    nav a:hover {
+        color: #f3f7f3;
+    }
+    
+    section {
+        border: 1px solid #030303;
+        border-radius: 5px;
+        padding: 20px;
+        margin-bottom: 20px;
+        animation: section-appear 1s ease-in-out forwards;
+    }
+    
+    @keyframes section-appear {
+        from {
+        opacity: 0;
+        transform: translateY(20px);
+        }
+        to {
+        opacity: 1;
+        transform: translateY(0);
+        }
+    }
+    
+    h2 {
+        margin-bottom: 10px;
+    }
+    
+    button {
+        background-color: #123620;
+        color: #e0dada;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.2s ease-in-out;
+        animation: button-pulse 1s ease-in-out infinite alternate;
+    }
+    
+    @keyframes button-pulse {
+        from {
+        transform: scale(1);
+        }
+        to {
+        transform: scale(1.05);
+        }
+    }
+    
+    button:hover {
+        background-color: #154021;
+    }
+
+
+
+
+
