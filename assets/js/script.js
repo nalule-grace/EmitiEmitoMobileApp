@@ -100,3 +100,6 @@ function showPopup() {
 function hidePopup() {
     document.getElementById("popup").style.display = "none";
 }
+
+
+/*===form validation===*/

@@ -69,17 +69,18 @@
         display: none; /* Hide by default */
     }
     
-    .sign__up button {
+    .home__buttons {
         background-color: #1a391b; /* Green color */
         color: #fff;
         padding: 10px 20px;
         border: none;
         border-radius: 5px;
+        width: 80px;
         cursor: pointer;
         transition: background-color 0.2s ease-in-out;
     }
     
-    .sign__up button:hover {
+    .home__buttons:hover {
         background-color: #3e8e41;
     }
     

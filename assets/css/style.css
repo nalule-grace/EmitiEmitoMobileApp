@@ -158,13 +158,14 @@
 }
 
 .ri-tree-line{
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .nav__logo{
     font-weight:var(--font-semi-bold);
     column-gap: .25em;
     align-items: center;
+
 }
 
 
@@ -174,7 +175,7 @@
     font-weight: initial;
 }
 
-.nav__actions{
+.nav__action{
     font-size: 1.25rem;
     column-gap:.5rem ;
     align-items: center;
